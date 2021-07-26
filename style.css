@@ -81,7 +81,7 @@ header {
 
 
 #showcase {
-	background-image: url('../images/people.jpg');
+	background-image: url('https://cdn.pixabay.com/photo/2014/09/07/21/52/city-438393_960_720.jpg');
 	background-position: bottom 10% center;
     background-size: cover;
 	min-height: 350px;
@@ -246,7 +246,7 @@ header {
     color: rgba(8,27,51,.8);
 }
 
-#end-section h2 {
+#end-sction h2 {
     text-align: center;
     font-size: 42px;
     font-weight: 400;

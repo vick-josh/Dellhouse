@@ -17,6 +17,54 @@
 	margin-bottom: 30px;
 	text-align: center;
     }
+
+    #end-section {
+        margin-top: 5em;
+        float: left;
+        width: 60%;
+    }
+
+    #checkers {
+        font-family: "Poppins", sans-serif;
+        font-size: 14px;
+        margin: 1em 0 1em 0;
+    }
+
+    #boxes {
+        margin-bottom: 0.5em;
+    }
+
+    .address {
+        float: right;
+        width: 35%;
+        margin-top: 5em;
+        font-family: "Poppins", sans-serif;
+        font-size: 14px;
+        padding-left: 1em;
+    }
+    
+    .address h4 {
+        margin: 1em 0 1em 0;
+        color: #000;
+    }
+    .form-cont {
+        width: 80%;
+        margin: auto;
+        padding: 1.5em;
+    }
+
+    .form-field {
+    width: 75%;
+    padding: 12px;
+    border: 1px solid rgba(128, 128, 128, 0.6);
+    background: #fafafa;
+    color: #081B33;
+    box-sizing: border-box;
+    border-radius: 2px;
+    font-size: 16px;
+    margin-bottom: 1.25em;
+    font-family: 'Poppins', sans-serif;
+}
     </style>
         
 </head>
@@ -49,7 +97,7 @@
 
    
     <!--Contact and form-->
-
+   <div class="form-cont">
    <section id="end-section">
        <div>
             <h2>Send us a brief.</h2>
@@ -72,8 +120,35 @@
                 <p>Email Address*</p>
                 <input type="email" id="email" class="form-field" placeholder="Enter email"><br>
 
+                <p>Phone*</p>
+                <input type="number" id="number" class="form-field" Placeholder="Enter number"><br> 
+
                 <p>Website*</p>
-                <input type="text" id="website" placeholder="Enter website" class="form-field">
+                <input type="text" id="website" placeholder="Enter website" class="form-field"><br>
+                </form>
+               
+                <div id="checkers">
+                    <p>Reason of Inquiry*</p>
+                    <label for="digital-strategy">
+                        <input type="checkbox" id="boxes" name="digital-strategy"> Digital Strategy
+                    </label><br>
+                    <label for="content">
+                        <input type="checkbox" id="boxes" name="content"> Content Marketing
+                    </label><br>
+                    <label for="social">
+                        <input type="checkbox" id="boxes" name="social"> Social Media
+                    </label><br>
+                    <label for="web">
+                        <input type="checkbox" id="boxes" name="web"> Web + Mobile
+                    </label><br>
+                    <label for="online">
+                        <input type="checkbox" id="boxes" name="online"> Online Advertising
+                    </label><br>
+                    <label for="copy">
+                        <input type="checkbox" id="boxes" name="copy"> Copywriting
+                    </label><br>
+    
+                </div>
 
                 <p>How Can We Help?*</p>
                 <p>Please do not include confidential or sensitive information in your message.</p>
@@ -88,6 +163,27 @@
 
     </section>
 
+    <aside class="address">
+        <div id="addy">
+            <h4>Address</h4>
+            <p>No 11 Yalinga Street,</p>
+            <p>Adetokunbo Ademola Crescent. Wuse 2</p>
+        </div>
+        
+        <div id="hours">
+            <h4>Office Hours</h4>
+            <p>Monday - Friday</p>
+            <p>9AM - 5PM</p>
+        </div>
+        <div id="contact">
+            <h4>contact</h4>
+            <p>enquires@dellhouse.com</p>
+            <p>(234)803-477-9866</p>
+        </div>
+
+    </aside>
+
+    </div>  
     <!--Footer-->
 
             <hr>
